@@ -9,8 +9,12 @@ homepage = "https://github.com/PicoGeyer/hypermodern-python"
 repository = "https://github.com/PicoGeyer/hypermodern-python"
 keywords = ["hypermodern"]
 
+[tool.poetry.scripts]
+hypermodern-python = "hypermodern_python_pico.console:main"
+
 [tool.poetry.dependencies]
 python = "^3.8"
+click = "^8.1.3"
 
 [tool.poetry.dev-dependencies]
 
